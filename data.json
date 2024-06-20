@@ -1,20 +1,20 @@
 [
-	{"level1": "IPCC Categories", "id": "", "person": "IPCC Categories"},
+    {"level1": "IPCC Categories", "id": "", "person": "IPCC Categories"},
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "id": "1",
         "person": "Energy"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "id": "1A",
         "person": "Fuel Combustion Activities"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A1",
@@ -22,7 +22,7 @@
         "person": "Energy Industries"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A1",
@@ -31,7 +31,7 @@
         "person": "Main Activity Electricity"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A1",
@@ -40,7 +40,7 @@
         "person": "Petroleum Refining"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A1",
@@ -49,7 +49,7 @@
         "person": "Manufacture of Solid Fuels & Other Energy Industries"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A2",
@@ -57,7 +57,7 @@
         "person": "Manufacturing Industries & Construction"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A3",
@@ -65,7 +65,7 @@
         "person": "Transport"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A3",
@@ -74,7 +74,7 @@
         "person": "Civil Aviation"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A3",
@@ -83,7 +83,7 @@
         "person": "Road Transport"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A3",
@@ -92,7 +92,7 @@
         "person": "Railways"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A3",
@@ -101,7 +101,7 @@
         "person": "Water Borne Navigation"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A3",
@@ -110,7 +110,7 @@
         "person": "Other Transportation"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A4",
@@ -118,7 +118,7 @@
         "person": "Other Sectors"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A4",
@@ -127,7 +127,7 @@
         "person": "Commercial/ Institutional"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A4",
@@ -136,7 +136,7 @@
         "person": "Residential"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A4",
@@ -145,7 +145,7 @@
         "person": "Agriculture/ Forestry/ Fishing/ Fish Farms"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1A",
         "level4": "1A5",
@@ -153,14 +153,14 @@
         "person": "Non-specified"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1B",
         "id": "1B",
         "person": "Fugitive Emissions from Fuel"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1B",
         "level4": "1B1",
@@ -168,7 +168,7 @@
         "person": "Solid Fuels"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1B",
         "level4": "1B2",
@@ -176,7 +176,7 @@
         "person": "Oil & Natural Gas"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1B",
         "level4": "1B3",
@@ -184,89 +184,89 @@
         "person": "Other Emissions from Energy Production"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "1",
         "level3": "1C",
         "id": "1C",
         "person": "Carbon Dioxide Transport & Storage"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "2",
         "id": "2",
         "person": "IPPU"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "2",
         "level3": "2A",
         "id": "2A",
         "person": "Mineral Industry"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "2",
         "level3": "2B",
         "id": "2B",
         "person": "Chemical Industry"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "2",
         "level3": "2C",
         "id": "2C",
         "person": "Metal Industry"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "2",
         "level3": "2D",
         "id": "2D",
         "person": "Non-Energy Products from Fuels and Solvent Use"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "2",
         "level3": "2E",
         "id": "2E",
         "person": "Electronics Industry"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "2",
         "level3": "2F",
         "id": "2F",
         "person": "Product Uses as Substitutes for Ozone Depleting Substance"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "2",
         "level3": "2G",
         "id": "2G",
         "person": "Other Product Manufacture and Use"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "2",
         "level3": "2H",
         "id": "2H",
         "person": "Other"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "id": "3",
         "person": "AFOLU"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3A",
         "id": "3A",
         "person": "Livestock"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3A",
         "level4": "3A1",
@@ -274,7 +274,7 @@
         "person": "Enteric Fermentation"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3A",
         "level4": "3A2",
@@ -282,14 +282,14 @@
         "person": "Manure Management"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3B",
         "id": "3B",
         "person": "Land"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3B",
         "level4": "3B1",
@@ -297,7 +297,7 @@
         "person": "Forest Land"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3B",
         "level4": "3B2",
@@ -305,7 +305,7 @@
         "person": "Cropland"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3B",
         "level4": "3B3",
@@ -313,7 +313,7 @@
         "person": "Grassland"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3B",
         "level4": "3B4",
@@ -321,7 +321,7 @@
         "person": "Wetland"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3B",
         "level4": "3B5",
@@ -329,7 +329,7 @@
         "person": "Settlements"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3B",
         "level4": "3B6",
@@ -337,14 +337,14 @@
         "person": "Other Land"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3C",
         "id": "3C",
         "person": "Aggregate Sources & Non-CO2 Emissions Sources on Land"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3C",
         "level4": "3C1",
@@ -352,7 +352,7 @@
         "person": "GHG Emissionion from Biomass burning"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3C",
         "level4": "3C2",
@@ -360,7 +360,7 @@
         "person": "Liming"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3C",
         "level4": "3C3",
@@ -368,7 +368,7 @@
         "person": "Urea Application"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3C",
         "level4": "3C4",
@@ -376,7 +376,7 @@
         "person": "Direct N2O Emissions from Managed Soil"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3C",
         "level4": "3C5",
@@ -384,7 +384,7 @@
         "person": "Indirect N2O Emissions from Managed Soil"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3C",
         "level4": "3C6",
@@ -392,7 +392,7 @@
         "person": "Indirect N2O Emissions from Manure Management System"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3C",
         "level4": "3C7",
@@ -400,14 +400,14 @@
         "person": "Rice Cultivations"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3D",
         "id": "3D",
         "person": "Other"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3D",
         "level4": "3D1",
@@ -415,7 +415,7 @@
         "person": "Harvest Wood Products"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "3",
         "level3": "3D",
         "level4": "3D2",
@@ -423,41 +423,41 @@
         "person": "Others"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "4",
         "id": "4",
         "person": "Waste"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "4",
         "level3": "4A",
         "id": "4A",
         "person": "Solid Waste Disposal"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "4",
         "level3": "4B",
         "id": "4B",
         "person": "Biological Treatment of Solid Waste"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "4",
         "level3": "4C",
         "id": "4C",
         "person": "Incineration & Open Burning of Waste"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "4",
         "level3": "4D",
         "id": "4D",
         "person": "Wastewater Treatment & Discharge"
     },
     {
-		"level1": "IPCC Categories",
+	"level1": "IPCC Categories",
         "level2": "4",
         "level3": "4E",
         "id": "4E",
