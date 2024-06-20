@@ -1,6 +1,6 @@
 {
 	"$schema": "https://vega.github.io/schema/vega/v5.json",
-	"description": "Cloned and modified from zoomable, collapsable tree by David Bacci,
+	"description": "Cloned and modified from zoomable, collapsable tree by David Bacci"
 	"width": {"signal": "1400"},
 	"height": {"signal": "1000"},
 	"background": "#f5f5f5",
