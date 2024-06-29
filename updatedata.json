@@ -1,0 +1,525 @@
+[
+    {
+        "level1": "IPCC Categories",
+        "id": "",
+        "person": "IPCC Categories"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "id": "1",
+        "person": "Energy",
+        "about": "Emissions released due to combustion of fuels for energy such as electricity generation, transport or industrial activities.",
+        "color_hex": "#F3C911",
+        "hexcode": "#F3C911"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "id": "1A",
+        "person": "Fuel Combustion Activities",
+        "about": "Emissions from any activities that burn fuel like electricity generation, transport or manufacturing industries.",
+        "color_hex": "#F3C911",
+        "hexcode": "#F3C911"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A1",
+        "id": "1A1",
+        "person": "Energy Industries",
+        "about": "Emissions from any energy generating activities like electricity, heat, or petroleum refining.",
+        "color_hex": "#F3C911",
+        "hexcode": "#F3C911"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A1",
+        "level5": "1A1a",
+        "id": "1A1a",
+        "person": "Main Activity Electricity"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A1",
+        "level5": "1A1b",
+        "id": "1A1b",
+        "person": "Petroleum Refining"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A1",
+        "level5": "1A1c",
+        "id": "1A1c",
+        "person": "Manufacture of Solid Fuels & Other Energy Industries"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A2",
+        "id": "1A2",
+        "person": "Manufacturing Industries & Construction",
+        "about": "Emissions from combustion of fuel for energy generation purposes in any manufacturing industry.",
+        "color_hex": "#DC5B57",
+        "hexcode": "#DC5B57"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A3",
+        "id": "1A3",
+        "person": "Transport",
+        "about": "Emissions released from fuels utilised for transportation including road, water, air and railways.",
+        "color_hex": "#F3C911",
+        "hexcode": "#F3C911"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A3",
+        "level5": "1A3a",
+        "id": "1A3a",
+        "person": "Civil Aviation"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A3",
+        "level5": "1A3b",
+        "id": "1A3b",
+        "person": "Road Transport"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A3",
+        "level5": "1A3c",
+        "id": "1A3c",
+        "person": "Railways"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A3",
+        "level5": "1A3d",
+        "id": "1A3d",
+        "person": "Water Borne Navigation"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A3",
+        "level5": "1A3e",
+        "id": "1A3e",
+        "person": "Other Transportation"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A4",
+        "id": "1A4",
+        "person": "Other Sectors",
+        "about": "Emissions from use of fossil fuels in the commercial, residential and agricultural sector. For ex., use of LPG cylinders or diesel generators.",
+        "color_hex": "#F3C911",
+        "hexcode": "#F3C911"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A4",
+        "level5": "1A4a",
+        "id": "1A4a",
+        "person": "Commercial/ Institutional"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A4",
+        "level5": "1A4a",
+        "id": "1A4b",
+        "person": "Residential"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A4",
+        "level5": "1A4a",
+        "id": "1A4c",
+        "person": "Agriculture/ Forestry/ Fishing/ Fish Farms"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1A",
+        "level4": "1A5",
+        "id": "1A5",
+        "person": "Non-specified"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1B",
+        "id": "1B",
+        "person": "Fugitive Emissions from Fuel",
+        "about": "Emissions released due to solid, liquid and gaseous fuel mining, for eg., oil and natural gas production, exploration, refining, mining etc.",
+        "color_hex": "#DC5B57",
+        "hexcode": "#DC5B57"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1B",
+        "level4": "1B1",
+        "id": "1B1",
+        "person": "Solid Fuels"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1B",
+        "level4": "1B2",
+        "id": "1B2",
+        "person": "Oil & Natural Gas"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1B",
+        "level4": "1B3",
+        "id": "1B3",
+        "person": "Other Emissions from Energy Production"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "1",
+        "level3": "1C",
+        "id": "1C",
+        "person": "Carbon Dioxide Transport & Storage",
+        "about": "Emissions occurring due to activities related to carbon dioxide capture and storage.",
+        "color_hex": "#DC5B57",
+        "hexcode": "#DC5B57"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "2",
+        "id": "2",
+        "person": "IPPU",
+        "about": "Emissions from industrial activities (not specific to fuel combustion).",
+        "color_hex": "#DC5B57",
+        "hexcode": "#DC5B57"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "2",
+        "level3": "2A",
+        "id": "2A",
+        "person": "Mineral Industry",
+        "about": "Emissions caused by mineral industry like cement, lime or glass production"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "2",
+        "level3": "2B",
+        "id": "2B",
+        "person": "Chemical Industry",
+        "about": "Emissions caused by chemical production like soda ash, ammonia or petrochemicals."
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "2",
+        "level3": "2C",
+        "id": "2C",
+        "person": "Metal Industry",
+        "about": "Emissions caused by metals like iron and steel, magnesium or lead"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "2",
+        "level3": "2D",
+        "id": "2D",
+        "person": "Non-Energy Products from Fuels and Solvent Use",
+        "about": "Any emissions caused by the use of solvents, lubricants or paraffin wax.\u00a0"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "2",
+        "level3": "2E",
+        "id": "2E",
+        "person": "Electronics Industry",
+        "about": "Emissions caused by production of electronics like semiconductors or photovoltaics. This does not include electrical equipment.\u00a0"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "2",
+        "level3": "2F",
+        "id": "2F",
+        "person": "Product Uses as Substitutes for Ozone Depleting Substance",
+        "about": "Emissions caused by use of aerosols, solvents or other coolants in refrigeration or air conditioning.\u00a0"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "2",
+        "level3": "2G",
+        "id": "2G",
+        "person": "Other Product Manufacture and Use",
+        "about": "Emissions from the manufacture, use and disposal of electrical equipment including military and medical applications.\u00a0\u00a0"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "2",
+        "level3": "2H",
+        "id": "2H",
+        "person": "Other",
+        "about": "Emissions from paper & pulp, food and beverages and other similar industries"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "id": "3",
+        "person": "AFOLU",
+        "about": "Emissions from agricultural and land use activities.",
+        "color_hex": "#F3C911",
+        "hexcode": "#F3C911"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3A",
+        "id": "3A",
+        "person": "Livestock",
+        "about": "Emissions caused by management of animals and their waste."
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3A",
+        "level4": "3A1",
+        "id": "3A1",
+        "person": "Enteric Fermentation",
+        "about": "Any methane emissions from the digestive process of ruminant animals is called enteric fermentation"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3A",
+        "level4": "3A2",
+        "id": "3A2",
+        "person": "Manure Management",
+        "about": "Emissions released from management of manure either in solid, liquid or slurry form."
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3B",
+        "id": "3B",
+        "person": "Land",
+        "about": "Emissions caused due to land use and land use change."
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3B",
+        "level4": "3B1",
+        "id": "3B1",
+        "person": "Forest Land",
+        "about": "Any change of land from forest to other type or vice versa causes greenhouse gas emissions.\u00a0"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3B",
+        "level4": "3B2",
+        "id": "3B2",
+        "person": "Cropland",
+        "about": "Any change of land from forest to other type or vice versa causes greenhouse gas emissions. These emissions are included here."
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3B",
+        "level4": "3B3",
+        "id": "3B3",
+        "person": "Grassland",
+        "about": "Any change of land from forest to other type or vice versa causes greenhouse gas emissions. These emissions are included here."
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3B",
+        "level4": "3B4",
+        "id": "3B4",
+        "person": "Wetland",
+        "about": "Any change of land from forest to other type or vice versa causes greenhouse gas emissions. These emissions are included here."
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3B",
+        "level4": "3B5",
+        "id": "3B5",
+        "person": "Settlements",
+        "about": "Any change of land from forest to other type or vice versa causes greenhouse gas emissions. These emissions are included here."
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3B",
+        "level4": "3B6",
+        "id": "3B6",
+        "person": "Other Land",
+        "about": "Any change of land from forest to other type or vice versa causes greenhouse gas emissions. These emissions are included here."
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3C",
+        "id": "3C",
+        "person": "Aggregate Sources & Non-CO2 Emissions Sources on Land",
+        "about": "All GHG emissions (except CO2) that occur from land use.\u00a0\u00a0"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3C",
+        "level4": "3C1",
+        "id": "3C1",
+        "person": "GHG Emissionion from Biomass burning"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3C",
+        "level4": "3C2",
+        "id": "3C2",
+        "person": "Liming"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3C",
+        "level4": "3C3",
+        "id": "3C3",
+        "person": "Urea Application"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3C",
+        "level4": "3C4",
+        "id": "3C4",
+        "person": "Direct N2O Emissions from Managed Soil"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3C",
+        "level4": "3C5",
+        "id": "3C5",
+        "person": "Indirect N2O Emissions from Managed Soil"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3C",
+        "level4": "3C6",
+        "id": "3C6",
+        "person": "Indirect N2O Emissions from Manure Management System"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3C",
+        "level4": "3C7",
+        "id": "3C7",
+        "person": "Rice Cultivations"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3D",
+        "id": "3D",
+        "person": "Other",
+        "about": "Emissions from wood harvesting and other similar activities.\u00a0"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3D",
+        "level4": "3D1",
+        "id": "3D1",
+        "person": "Harvest Wood Products"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "3",
+        "level3": "3D",
+        "level4": "3D2",
+        "id": "3D2",
+        "person": "Others"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "4",
+        "id": "4",
+        "person": "Waste"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "4",
+        "level3": "4A",
+        "id": "4A",
+        "person": "Solid Waste Disposal",
+        "about": "Emissions occurring from any managed or unmanaged waste disposal sites."
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "4",
+        "level3": "4B",
+        "id": "4B",
+        "person": "Biological Treatment of Solid Waste",
+        "about": "Emissions caused by treatment like composting, anaerobic digestion etc are included here. Emissions caused by using the compost or using the methane gas as fuel will NOT be included in this sub sector.\u00a0"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "4",
+        "level3": "4C",
+        "id": "4C",
+        "person": "Incineration & Open Burning of Waste",
+        "about": "Emissions from incinerated as well as openly burnt waste.\u00a0"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "4",
+        "level3": "4D",
+        "id": "4D",
+        "person": "Wastewater Treatment & Discharge",
+        "about": "Emissions related to industrial, domestic or commercial wastewater treatment"
+    },
+    {
+        "level1": "IPCC Categories",
+        "level2": "4",
+        "level3": "4E",
+        "id": "4E",
+        "person": "Other",
+        "about": "Emissions from any remaining categories of waste which have not been included in the previous sub sectors."
+    }
+]
