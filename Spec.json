@@ -240,27 +240,27 @@
       "transform": [
         {
           "type": "formula",
-          "expr": "{key: datum.level1,parent: null, person:datum.person, kpi:datum.kpi, about:datum.about}",
+          "expr": "{key: datum.level1,parent: null, person:datum.person, kpi:datum.kpi, about:datum.about, hexcode:datum.hexcode}",
           "as": "l1"
         },
         {
           "type": "formula",
-          "expr": "{key: datum.level1+ '|'+datum.level2,parent: datum.level1, person:datum.person, kpi:datum.kpi, about:datum.about}",
+          "expr": "{key: datum.level1+ '|'+datum.level2,parent: datum.level1, person:datum.person, kpi:datum.kpi, about:datum.about, hexcode:datum.hexcode}",
           "as": "l2"
         },
         {
           "type": "formula",
-          "expr": "{key:datum.level1 + '|'+datum.level2+ '|'+datum.level3,parent: datum.level1+ '|'+datum.level2, person:datum.person, kpi:datum.kpi, about:datum.about}",
+          "expr": "{key:datum.level1 + '|'+datum.level2+ '|'+datum.level3,parent: datum.level1+ '|'+datum.level2, person:datum.person, kpi:datum.kpi, about:datum.about, hexcode:datum.hexcode}",
           "as": "l3"
         },
         {
           "type": "formula",
-          "expr": "{key:datum.level1 + '|'+datum.level2+ '|'+datum.level3+ '|'+ datum.level4,parent: datum.level1 + '|'+datum.level2+ '|'+datum.level3, person:datum.person, kpi:datum.kpi, about:datum.about}",
+          "expr": "{key:datum.level1 + '|'+datum.level2+ '|'+datum.level3+ '|'+ datum.level4,parent: datum.level1 + '|'+datum.level2+ '|'+datum.level3, person:datum.person, kpi:datum.kpi, about:datum.about, hexcode:datum.hexcode}",
           "as": "l4"
         },
         {
           "type": "formula",
-          "expr": "{key:datum.level1 + '|'+datum.level2+ '|'+datum.level3+ '|'+ datum.level4+ '|'+ datum.level5,parent: datum.level1 + '|'+datum.level2+ '|'+datum.level3+ '|'+ datum.level4, person:datum.person, kpi:datum.kpi, about:datum.about}",
+          "expr": "{key:datum.level1 + '|'+datum.level2+ '|'+datum.level3+ '|'+ datum.level4+ '|'+ datum.level5,parent: datum.level1 + '|'+datum.level2+ '|'+datum.level3+ '|'+ datum.level4, person:datum.person, kpi:datum.kpi, about:datum.about, hexcode:datum.hexcode}",
           "as": "l5"
         },
         {
@@ -308,6 +308,11 @@
           "type": "formula",
           "expr": "datum.value.about",
           "as": "about"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.value.hexcode",
+          "as": "hexcode"
         }
       ]
     },
@@ -511,7 +516,7 @@
           "from": "treeCalcs",
           "key": "id",
           "fields": ["id"],
-          "values": ["children", "about"]
+          "values": ["children", "about", "hexcode"]
         },
         {
           "type": "formula",
@@ -602,16 +607,10 @@
     {
       "name": "colour",
       "type": "ordinal",
-      "range": [
-        "#6f6f6f",
-        "#4472C4",
-        "#3A8E50",
-        "#ED7D31",
-        "#a63939",
-        "#6338a6",
-        "#3843a6",
-        "#38a695"
-      ],
+      "range": {
+        "data": "visibleNodes",
+        "field": "hexcode"
+      },
       "domain": {
         "data": "visibleNodes",
         "field": "treeParent"
@@ -630,8 +629,7 @@
             "signal": "indexof(nodeHighlight, datum.target.id)> -1? 2.5:0.4"
           },
           "stroke": {
-            "scale": "colour",
-            "signal": "reverse(pluck(treeAncestors('treeCalcs', datum.target.id), 'id'))[1]"
+            "signal": "datum.target.hexcode"
           }
         }
       }
@@ -644,56 +642,36 @@
       "from": { "data": "visibleNodes" },
       "encode": {
         "update": {
-          "x": {
-            "field": "x",
-            "scale": "xscale"
-          },
-          "width": {
-            "signal": "scaledNodeWidth"
-          },
-          "yc": {
-            "field": "y",
-            "scale": "yscale"
-          },
-          "height": {
-            "signal": "scaledNodeHeight"
-          },
+          "x": { "field": "x", "scale": "xscale" },
+          "width": { "signal": "scaledNodeWidth" },
+          "yc": { "field": "y", "scale": "yscale" },
+          "height": { "signal": "scaledNodeHeight" },
           "fill": {
-            "signal": "merge(hsl(scale('colour', datum.treeParent)), {l:0.94})"
+            "signal": "merge(hsl(datum.hexcode), {l:0.94})"
           },
           "stroke": {
-            "signal": "merge(hsl(scale('colour', datum.treeParent)), {l:0.79})"
+            "signal": "merge(hsl(datum.hexcode), {l:0.79})"
           },
           "cornerRadius": { "value": 2 },
-          "cursor": {
-            "signal": "datum.children>0?'pointer':''"
-          },
-          "tooltip": {
-            "signal": "datum.about"
-          }
+          "cursor": { "signal": "datum.children>0?'pointer':''" },
+          "tooltip": { "signal": "datum.about" }
         }
       },
       "marks": [
         {
           "name": "highlight",
-          "description": "highlight (seems like a Vega bug as this doens't work on the group element)",
+          "description": "highlight (seems like a Vega bug as this doesn't work on the group element)",
           "type": "rect",
           "interactive": false,
           "encode": {
             "update": {
-              "x": {
-                "signal": "item.mark.group.x1"
-              },
+              "x": { "signal": "item.mark.group.x1" },
               "y": { "signal": "0" },
               "fill": {
-                "signal": "indexof(nodeHighlight, parent.id)> -1? merge(hsl(scale('colour', parent.treeParent)), {l:0.82}):0"
+                "signal": "indexof(nodeHighlight, parent.id)> -1? merge(hsl(parent.hexcode), {l:0.82}):0"
               },
-              "height": {
-                "signal": "item.mark.group.height"
-              },
-              "width": {
-                "signal": "item.mark.group.width"
-              }
+              "height": { "signal": "item.mark.group.height" },
+              "width": { "signal": "item.mark.group.width" }
             }
           }
         },
@@ -705,22 +683,11 @@
           "clip": true,
           "encode": {
             "update": {
-              "x": {
-                "signal": "item.mark.group.x1"
-              },
-              "y": {
-                "signal": "item.mark.group.height-scaledKPIHeight"
-              },
-              "height": {
-                "signal": "scaledKPIHeight"
-              },
-              "width": {
-                "signal": "(item.mark.group.width)"
-              },
-              "fill": {
-                "scale": "colour",
-                "signal": "parent.treeParent"
-              },
+              "x": { "signal": "item.mark.group.x1" },
+              "y": { "signal": "item.mark.group.height-scaledKPIHeight" },
+              "height": { "signal": "scaledKPIHeight" },
+              "width": { "signal": "(item.mark.group.width)" },
+              "fill": { "signal": "parent.hexcode" },
               "opacity": { "value": 0.2 }
             }
           }
@@ -733,22 +700,11 @@
           "clip": true,
           "encode": {
             "update": {
-              "x": {
-                "signal": "item.mark.group.x1"
-              },
-              "y": {
-                "signal": "item.mark.group.height-scaledKPIHeight"
-              },
-              "height": {
-                "signal": "scaledKPIHeight"
-              },
-              "width": {
-                "signal": "scale('kpiscale',parent.kpi)"
-              },
-              "fill": {
-                "scale": "colour",
-                "signal": "parent.treeParent"
-              }
+              "x": { "signal": "item.mark.group.x1" },
+              "y": { "signal": "item.mark.group.height-scaledKPIHeight" },
+              "height": { "signal": "scaledKPIHeight" },
+              "width": { "signal": "scale('kpiscale',parent.kpi)" },
+              "fill": { "signal": "parent.hexcode" }
             }
           }
         },
@@ -758,34 +714,15 @@
           "name": "name",
           "encode": {
             "update": {
-              "x": {
-                "signal": "(10/ span(xdom))*width"
-              },
-              "y": {
-                "signal": "(6/ span(xdom))*width"
-              },
-              "fontWeight": {
-                "value": "600"
-              },
-              "baseline": {
-                "value": "top"
-              },
-              "fill": {
-                "scale": "colour",
-                "signal": "parent.treeParent"
-              },
-              "text": {
-                "signal": "parent.person"
-              },
-              "fontSize": {
-                "signal": "scaledFont13"
-              },
-              "limit": {
-                "signal": "scaledNodeWidth-scaledLimit"
-              },
-              "font": {
-                "value": "Calibri"
-              }
+              "x": { "signal": "(10/ span(xdom))*width" },
+              "y": { "signal": "(6/ span(xdom))*width" },
+              "fontWeight": { "value": "600" },
+              "baseline": { "value": "top" },
+              "fill": { "signal": "parent.hexcode" },
+              "text": { "signal": "parent.person" },
+              "fontSize": { "signal": "scaledFont13" },
+              "limit": { "signal": "scaledNodeWidth-scaledLimit" },
+              "font": { "value": "Calibri" }
             }
           }
         },
@@ -795,33 +732,15 @@
           "name": "title",
           "encode": {
             "update": {
-              "x": {
-                "signal": "(10/ span(xdom))*width"
-              },
-              "y": {
-                "signal": "(22/ span(xdom))*width"
-              },
-              "align": {
-                "value": "left"
-              },
-              "baseline": {
-                "value": "top"
-              },
-              "fill": {
-                "signal": "'#4D4B44'"
-              },
-              "text": {
-                "signal": "parent.title"
-              },
-              "fontSize": {
-                "signal": "scaledFont11"
-              },
-              "limit": {
-                "signal": "scaledNodeWidth-scaledLimit"
-              },
-              "font": {
-                "value": "Calibri"
-              }
+              "x": { "signal": "(10/ span(xdom))*width" },
+              "y": { "signal": "(22/ span(xdom))*width" },
+              "align": { "value": "left" },
+              "baseline": { "value": "top" },
+              "fill": { "signal": "parent.hexcode" },
+              "text": { "signal": "parent.title" },
+              "fontSize": { "signal": "scaledFont11" },
+              "limit": { "signal": "scaledNodeWidth-scaledLimit" },
+              "font": { "value": "Calibri" }
             }
           }
         },
@@ -834,28 +753,13 @@
               "x": {
                 "signal": "item.mark.group.width - (9/ span(xdom))*width"
               },
-              "y": {
-                "signal": "item.mark.group.height/2"
-              },
-              "align": {
-                "value": "right"
-              },
-              "baseline": {
-                "value": "middle"
-              },
-              "fill": {
-                "scale": "colour",
-                "signal": "parent.treeParent"
-              },
-              "text": {
-                "signal": "parent.children>0?parent.children:''"
-              },
-              "fontSize": {
-                "signal": "scaledFont12"
-              },
-              "font": {
-                "value": "Calibri"
-              }
+              "y": { "signal": "item.mark.group.height/2" },
+              "align": { "value": "right" },
+              "baseline": { "value": "middle" },
+              "fill": { "signal": "parent.hexcode" },
+              "text": { "signal": "parent.children>0?parent.children:''" },
+              "fontSize": { "signal": "scaledFont12" },
+              "font": { "value": "Calibri" }
             }
           }
         }
